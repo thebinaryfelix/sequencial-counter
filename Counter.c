@@ -40,11 +40,12 @@ int main()
             i = n;
             i++;
         }
-
         if(qtd == 0)
         {
             printf("\n\tNo missing numbers!\n\n");
         }
+
+        printf("\n\t%d Missing numbers in general.\n\n", qtd);
     }
 
     fclose(readfrom);
